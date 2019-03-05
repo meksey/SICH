@@ -1,0 +1,31 @@
+#office-auth-form .form-group {
+    margin-bottom: 5px;
+}
+
+#office-auth-form .hidden {
+    display: none;
+}
+
+#office-auth-form .main-user {
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+#office-auth-form .authorized {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #aaa;
+}
+
+#office-auth-form .authorized .user {
+    margin-bottom: 5px;
+    line-height: 50px;
+}
+
+#office-auth-form .authorized .user .logout {
+    text-align: right;
+}
+
+#office-auth-form .authorized .user:last-child {
+    margin-bottom: 0;
+}

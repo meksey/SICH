@@ -1,0 +1,61 @@
+.sub1 {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.special-projects .pravo {
+    background: url(/new_theme/img/pravo/rule.png);
+    background-repeat: repeat-y;
+    background-size: auto 120%;
+    background-position: center;
+}
+.pravo .btn:hover {
+    color: #000 !important;
+}
+.pravo .btn {
+    border-color: #38b164;
+    color: #38b164;
+    font-weight: bold;
+}
+.yasub .btn:hover {
+    color: #31ea5b !important;
+    border-color: #31ea5b !important;
+}
+.yasub .btn {
+    color: #28a745;
+    font-weight: bold;
+    border-color: #28a745;
+}
+.yasub .yasublater {
+    margin-top: 22px;
+    cursor: pointer;
+}
+.yasub {
+    position: fixed;
+    top: 5px;
+    right: 10%;
+    left: auto;
+    min-width: 340px;
+}
+.cookie_accept {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    height: auto;
+    z-index: 100000;
+    font-size: 13px;
+    line-height: 20px;
+    left: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0,0.7);
+}
+.ok_cookie {
+    color: #ffffff !important;
+}
+.bg-img-default {
+    background-color: #549bc6;
+}
+.bg-img-default .btn-white:hover {
+    color: #549bc6 !important;
+}
