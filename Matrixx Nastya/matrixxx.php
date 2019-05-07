@@ -98,15 +98,8 @@ for ($i=0; $i < $n; $i++)
 	print "<tr><td>$i</td>";
 	for ($j=0; $j < $n; $j++)
 	{
-		if ($i == $j)
-		{
-			print "<td>100%</td>";
-		}
-		else {
 			$el = $dd[$i][$j] / ($dd[$i][$i] + $dd[$j][$j] - $dd[$i][$j]) * 100;
 			print "<td>$el %</td>";
-		}
-
 	}
 	print "</tr>";
 }
